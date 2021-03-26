@@ -19,8 +19,8 @@
     "body-scroll-lock": "^2.6.4",
     "dotenv": "^8.2.0",
     "jwt-decode": "^3.1.2",
-    "netlify-plugin-onboarding": "^1.0.0",
     "moment": "^2.29.1",
+    "netlify-plugin-onboarding": "^1.0.0",
     "next": "9.5.5",
     "next-redux-wrapper": "^6.0.0",
     "node-sass": "^4.13.0",
@@ -35,7 +35,8 @@
     "react-transition-group": "^4.3.0",
     "redux": "^4.0.5",
     "redux-thunk": "^2.3.0",
-    "swiper": "^5.2.1"
+    "swiper": "^5.2.1",
+    "yarn": "^1.22.10"
   },
   "devDependencies": {
     "@chec/seeder": "^1.1.0",
