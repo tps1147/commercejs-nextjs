@@ -194,12 +194,8 @@ class Header extends Component {
               alt="Menu icon"
             />
             <Link href="/">
-              <a>
-                <img
-                  src="/images/commerce.svg"
-                  className="logo cursor-pointer"
-                  alt="Logo"
-                />
+              <a className="font-color-black">
+                Copa Tech
               </a>
             </Link>
           </div>
