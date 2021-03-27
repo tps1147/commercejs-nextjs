@@ -184,9 +184,17 @@ class Header extends Component {
             transparent ? '' : 'invert'
           }`}
         >
-
-
-        <div className="logo-container">
+          <div className="d-none d-sm-flex">
+            <Link href="/collection">
+              <a href="/collection" className="mr-4 font-color-black">Shop</a>
+            </Link>
+            <Link href="/about">
+              <a href="/about" className="font-color-black">
+                About
+              </a>
+            </Link>
+          </div>
+          <div className="logo-container">
             <img
               src={`/icon/${showMobileMenu ? 'cross' : 'menu'}.svg`}
               onClick={this.toggleMobileMenu}
@@ -199,20 +207,6 @@ class Header extends Component {
               </a>
             </Link>
           </div>
-
-
-
-          <div className="d-none d-sm-flex">
-            <Link href="/collection">
-              <a href="/collection" className="mr-4 font-color-black">Shop</a>
-            </Link>
-            <Link href="/about">
-              <a href="/about" className="font-color-black">
-                About
-              </a>
-            </Link>
-          </div>
-          
           <div className="d-flex">
             { process.browser && this.renderLoginLogout() }
             <div
