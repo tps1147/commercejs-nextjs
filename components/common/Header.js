@@ -184,28 +184,6 @@ class Header extends Component {
             transparent ? '' : 'invert'
           }`}
         >
-
-
-        <div className="logo-container">
-            <img
-              src={`/icon/${showMobileMenu ? 'cross' : 'menu'}.svg`}
-              onClick={this.toggleMobileMenu}
-              className="w-32 mr-1 d-block d-sm-none"
-              alt="Menu icon"
-            />
-            <Link href="/">
-              <a>
-                <img
-                  src="/images/commerce.svg"
-                  className="logo cursor-pointer"
-                  alt="Logo"
-                />
-              </a>
-            </Link>
-          </div>
-
-
-
           <div className="d-none d-sm-flex">
             <Link href="/collection">
               <a href="/collection" className="mr-4 font-color-black">Shop</a>
@@ -216,7 +194,19 @@ class Header extends Component {
               </a>
             </Link>
           </div>
-          
+          <div className="logo-container">
+            <img
+              src={`/icon/${showMobileMenu ? 'cross' : 'menu'}.svg`}
+              onClick={this.toggleMobileMenu}
+              className="w-32 mr-1 d-block d-sm-none"
+              alt="Menu icon"
+            />
+            <Link href="/">
+              <a className="font-color-black">
+                Copa Tech
+              </a>
+            </Link>
+          </div>
           <div className="d-flex">
             { process.browser && this.renderLoginLogout() }
             <div
