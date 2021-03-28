@@ -1,21 +1,21 @@
 [
   {
-    "slug": "facial-products",
-    "name": "Facial Products",
+    "slug": "gaming-products",
+    "name": "Gaming",
     "meta": {
       "image": "/images/collection/1.png"
     }
   },
   {
-    "slug": "hair-products",
-    "name": "Hair Products",
+    "slug": "consumer-electronics",
+    "name": "Consumer Electronics",
     "meta": {
       "image": "/images/collection/2.png"
     }
   },
   {
-    "slug": "body-products",
-    "name": "Body Products",
+    "slug": "smart-wear",
+    "name": "Smart Wear",
     "meta": {
       "image": "/images/collection/3.png"
     }

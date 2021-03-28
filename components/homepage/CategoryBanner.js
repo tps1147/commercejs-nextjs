@@ -11,7 +11,7 @@ class CategoryBanner extends Component {
     return (
       <div className="bg-brand300 py-5 collection-banner">
         <div className="custom-container py-5">
-          <p className="font-size-display2 my-3 py-5 text-center font-family-secondary">
+          <p className="font-size-display2 my-5 py-5 text-center font-family-secondary">
             Categories
           </p>
 
