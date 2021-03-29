@@ -3,23 +3,23 @@ import PropTypes from 'prop-types';
 import Link from 'next/link';
 import { connect } from 'react-redux';
 
-class CategoryBanner extends Component {
+class BundleBanner extends Component {
 
   render() {
     const { categories } = this.props;
 
     return (
-      <div className="bg-brand300 py-5 collection-banner">
-        <div className="custom-container py-5">
+      <div className="bg-white py-5 collection-banner">
+        <div className="custom-container py-1">
           <p className="font-size-display2 my-5 py-5 text-center font-family-secondary">
-            Categories
+            Bundle boxes
           </p>
 
           <div className="row">
             {categories.map((item, index) => (
               <div
                 key={`category-item-${index}`}
-                className="col-12 col-md-4 collection-item mb-3"
+                className="col-12 col-md-4 collection-item mt-5"
               >
                 <Link href={`/collection#${item.slug}`} key={item.id}>
                   <a className="align-items-center font-color-light flex-column cursor-pointer mb-2">
@@ -47,12 +47,12 @@ class CategoryBanner extends Component {
   }
 }
 
-CategoryBanner.propTypes = {
+BundleBanner.propTypes = {
   categories: PropTypes.arrayOf(PropTypes.object),
 };
 
-CategoryBanner.defaultProps = {
+BundleBanner.defaultProps = {
   categories: [],
 };
 
-export default connect(state => state)(CategoryBanner);
+export default connect(state => state)(BundleBanner);
