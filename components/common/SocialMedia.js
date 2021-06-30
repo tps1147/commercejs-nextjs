@@ -2,23 +2,23 @@ import React from 'react';
 
 const imagesInfo = [
   {
-    image: '/images/insta/1.png',
+    image: '/images/collection/1.png',
     translateRatio: -50
   },
   {
-    image: '/images/insta/2.jpg',
+    image: '/images/home-2.jpg',
     translateRatio: 30
   },
   {
-    image: '/images/insta/3.jpg',
+    image: '/images/home-3.jpg',
     translateRatio: 0
   },
   {
-    image: '/images/insta/4.jpg',
+    image: '/images/home-4.jpg',
     translateRatio: -20
   },
   {
-    image: '/images/insta/5.jpg',
+    image: '/images/home-1.jpg',
     translateRatio: -80
   }
 ];

@@ -27,7 +27,7 @@ class ProductsBanner extends Component {
             </a>
           </Link>
         </div>
-        <ProductRow products={products.slice(0, 4)} />
+        <ProductRow products={products.slice(13, 17)} />
       </div>
     );
   }

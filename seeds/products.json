@@ -73,7 +73,7 @@
       "name": "Lip Fantastic",
       "description": "A limited-edition, nourishing lip gel to top off your look and feel fantastic.",
       "price": "24.00",
-      "category_id": "categories[0].id"
+      "category_id": "categories[1].id"
     },
     "variant": [
       {
@@ -165,7 +165,7 @@
       "name": "Complexion Cream",
       "description": "Anti-aging complexion cream for medium to dry skin. Nourish your face with a natural vitamin burst for that perfectly balanced glow.",
       "price": "32.00",
-      "category_id": "categories[0].id"
+      "category_id": "categories[2].id"
     },
     "variant": [
       {
@@ -188,7 +188,7 @@
       "name": "Eye Purity Gels",
       "description": "Treat your skin with active pore enzymes that replenish sun damaged skin.",
       "price": "18.00",
-      "category_id": "categories[0].id"
+      "category_id": "categories[2].id"
     },
     "variant": [
       {
